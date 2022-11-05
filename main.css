@@ -1,0 +1,113 @@
+body {
+    background-color: #00ff7f !important;
+}
+
+.pokemon-img-part {
+    margin-bottom: 70px;
+}
+
+.pokemon-main-img {
+    width: 100%;
+}
+
+.pokemon-search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input {
+    width: 330px;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.search-btn,
+.search-weakness-btn {
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #198754;
+    border: none;
+    border-radius: 20px;
+}
+
+.pokemon-weakness-select,
+.sort-pokemon-select {
+    margin: 0 10px 0;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.pokemon-weakness-select option {
+    border-radius: 20px;
+}
+
+.pokemons-box {
+    padding-top: 70px;
+}
+
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+
+.pokemon-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+}
+
+.pokemon-img {
+    width: 100%;
+    height: 300px;
+}
+
+.pokemon-candy,
+.pokemon-candy-count {
+    color: yellow;
+}
+
+.pokemon-weakness {
+    font-weight: 700;
+    font-size: 18px;
+    color: #b63939;
+}
+
+.pokemon-item-info-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.pokemon-candy-count {
+    font-size: 18px;
+}
+
+.pokemon-weight {
+    font-weight: 700;
+    color: #b63939;
+}
+
+.pokemon-height {
+    font-weight: 700;
+    color: #3d37bb;
+}
+
+.pokemon-span-time {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.pokemon-num {
+    position: absolute;
+    top: 0;
+}
